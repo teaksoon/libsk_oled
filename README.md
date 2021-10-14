@@ -10,7 +10,7 @@ code display a single character 'H' to the OLED Screen
 | #include <libsk_c_oled.h> 
 |
 |void setup() {
-|  sk_oled_begin(); // Run this just once
+|  sk_oled_begin(); // Run this just once#include <libsk_c_oled.h> void setup() { sk_oled_begin(); // Run this just once sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen } void loop(){}
 |  sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen
 |}
 | void loop(){}
