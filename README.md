@@ -40,8 +40,8 @@ to deal with pixel level graphics
 5. sk_oled_showLine(_row_1,_row_2,_col_1,_col_2,_state) - Draw a Diagonal Line
 6. sk_oled_showRadialSpokes(_row,_col,_len,_len_idx,_step,__step_idx,_state) - Draw Radial Spokes
 
-The "C" version have smaller memory footprint as it does not need a video buffer of 1024 bytes to handle pixel
-based rendering.
+NOTE: The "C" version have smaller memory footprint as it does not need to use a video buffer of 1024 bytes to handle pixel based rendering.
+---
 
 How to install this library into Arduino IDE Software ?
 ---
