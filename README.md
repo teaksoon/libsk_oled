@@ -10,20 +10,15 @@ a single character 'H' to the OLED Screen
 #include <libsk_c_oled.h> 
 
 void setup() {
-
   sk_oled_begin(); // Run this just once
-  
   sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen
-  
 }
-
 void loop(){}
 
+.Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
+.Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
 
-Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
-Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
-
-
+---
 
 There are 2 version of this library, "C" Version and "G" Version.
 
