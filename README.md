@@ -62,7 +62,7 @@ How to install this library into Arduino IDE Software ?
 Installation DONE!!!
 ---
    
-There are two Arduino Example program for this library, 
+There are two Arduino example program for this library, 
 - one for "C" version "libsk_c_oled_example.ino"
 - one for "G" version "libsk_g_oled_example.ino"
 
