@@ -13,8 +13,8 @@ This is a very small and simple OLED Library for the SSD1306 OLED i2c 64x128 Pix
 
 ------
 
-Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
-Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
+- Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
+- Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
 
 
 There are 2 version of this library, "C" Version and "G" Version.
