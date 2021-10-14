@@ -66,6 +66,6 @@ There are two Arduino example program for this library,
 - one for "G" version "libsk_g_oled_example.ino"
 
 NOTE: You cannot use both "C" and "G" version at the same time because both versions are using
-the same function names for text and bitmap display. Having same function names, allows us to
-swap between the two versions by just changing the include header ( if we do not use the "G" 
+the same function names for text and bitmap display. Having same function names, allows us to swap
+between the two versions by just changing the include header ( if we do not use the "G" 
 version functions ). #include <libsk_c_oled.h> or #include <libsk_g_oled.h>
