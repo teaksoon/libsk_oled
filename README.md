@@ -1,6 +1,7 @@
 # libsk_oled
 
 This is a very small and simple OLED Library for the SSD1306 OLED i2c 64x128 Pixel Display for ATMEGA328 micro-controller ( Arduino Uno ). It may not work on other platform as the library is designed to be as small as possible, therefore very limited support for multiple device or platforms. It only needs the include and 2 functions from the library to get something on the OLED Screen. The following code display a single character 'H' to the OLED Screen
+
 ------
 
 1. #include <libsk_c_oled.h> 
@@ -9,6 +10,8 @@ This is a very small and simple OLED Library for the SSD1306 OLED i2c 64x128 Pix
 4.   sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen
 5. }
 6. void loop(){}
+
+------
 
 Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
 Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
