@@ -6,7 +6,7 @@ This is a very small and simple OLED Library for the SSD1306 OLED i2c 64x128 Pix
 
 1. #include <libsk_c_oled.h> 
 2. void setup() {
-3.   sk_oled_begin(); // Run this just once#include 
+3.   sk_oled_begin(); // Run this just once
 4.   sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen
 5. }
 6. void loop(){}
