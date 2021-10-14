@@ -14,12 +14,12 @@ code display a single character 'H' to the OLED Screen
 5. }
 6. void loop(){}
 
-- Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
-- Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
+Sketch uses 1302 bytes (4%) of program storage space. Maximum is 32256 bytes.
+Global variables use 35 bytes (1%) of dynamic memory, leaving 2013 bytes for local variables. Maximum is 2048 bytes.
 
----
 
 There are 2 version of this library, "C" Version and "G" Version.
+---
 
 The "C" Version have a total of just only 7 functions.
 
@@ -48,10 +48,16 @@ How to install this library into Arduino IDE Software ?
 ---
 
 1. Find [Arduino User Program Folder] from the Arduino IDE Software, "File | Preferences | Sketchbook Location: [Arduino User Program Folder]"
-3. Use the Computer File Browser, Look for an existing folder named "libraries" inside the [Arduino User Program Folder]
-4. Inside the "libraries" folder, Create a new folder named "libsk_oled"
-5. Copy "libsk_c_oled.h" into the newly created "libsk_oled" folder [Arduino User Program Folder] / libraries / libsk_oled / libsk_c_oled.
-6. Copy "libsk_g_oled.h" into the newly created "libsk_oled" folder [Arduino User Program Folder] / libraries / libsk_oled / libsk_g_oled.h
+
+2. Use the Computer File Browser, Look for an existing folder named "libraries" inside the [Arduino User Program Folder]
+
+3. Inside the "libraries" folder, Create a new folder named "libsk_oled"
+
+4. Copy "libsk_c_oled.h" into the newly created "libsk_oled" folder 
+- [Arduino User Program Folder] / libraries / libsk_oled / libsk_c_oled.h
+ 
+5. Copy "libsk_g_oled.h" into the newly created "libsk_oled" folder 
+- [Arduino User Program Folder] / libraries / libsk_oled / libsk_g_oled.h
 
 Installation DONE!!!
 ---
