@@ -80,7 +80,7 @@ After installation, you may want to try out this two small test program for both
 
 "G" Version 
 ------
-1. #include <libsk_g_oled.h> // Simple "G" Version Example
+1. #include <libsk_g_oled.h> 
 2. void setup() {
 3. sk_oled_begin(); // Run this just once
 4. sk_oled_showChar(3,61,'H'); // Send a single ASCII Char to OLED screen ( Text Mode )
