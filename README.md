@@ -1,6 +1,6 @@
 # libsk_oled
 
-This is a very small and simple OLED Library for the SSD1306 OLED i2c 64x128 Pixel Display for ATMEGA328 micro-controller ( Arduino Uno ). It is specifically targetted so that this library can be as small as possible ( if you need support for other platform, change the source code since it is available to you ). Many error correction are intentionally not coded, also to keep this library as small as possible, you must use this library within its limits. 
+This is designed to be small and simple. This OLED Library is targetted specially for the the SSD1306 OLED i2c 64x128 pixel Display Module to be used with the atmega328 micro-controller. Many error corrections are  not coded intentionally, in order to keep this library as small as posssible. Use this library within its limits.
 
 ------
 
