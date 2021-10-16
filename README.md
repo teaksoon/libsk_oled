@@ -20,10 +20,7 @@ There are 2 version of this library, "C" Version and "G" Version. Following are 
 - _col - (0 to 123 pixel - left to right), for Char ( each Char is 5-pixel ) 
 - _col - (0 to 118 pixel - left to right), for "Char_L" ( each "Char_L" is 10-pixel ) 
 - _cha     - ASCII Char ( 32 to 126 )
-- _str     - Array of Chars, terminated by NULL ( 1-pixel gap between the Chars, 2-pixel gap between the "Char_L" )
-- _a_byt   - Array of Byte ( 8-bits each ) - for _showBitmap()
-- _len     - Total elements in _a_byt to be used - for _showBitmap()
-- _len_idx - Starting index from _a_byt ( 0 to _len-1 ) - for _showBitmap()
+
 
 The following are functions for the "G" Version Only ( with pixel level graphics )
 ---
@@ -44,6 +41,7 @@ The following are functions for the "G" Version Only ( with pixel level graphics
 - _step_idx - Index of step ( 0 to _step-1 ), step_idx=0 is vertical top from center, step_idx=1, in clockwise movement
 
 ------
+
 
 How to install this library into Arduino IDE Software ?
 ---
@@ -101,14 +99,15 @@ There are two Arduino example program for this library,
 2. "libsk_g_oled_example.ino" - demonstrates all the functions in the "G" Version
 
 NOTE: 
-The "C" version have smaller memory footprint as it does not need to use a video buffer of 1024 bytes
-to handle pixel based rendering. You CANNOT use both "C" and "G" version at the same time because both
-versions are using the same function names. Having same function names, allows us to swap between the 
-two versions by just changing the include header. 
-
-Code either #include <libsk_c_oled.h> or #include <libsk_g_oled.h> BUT NOT AT THE SAME TIME.
 ---
 
-My suggestion is to use the "C" version first, #include <sklib_c_oled.h> , because all the functions
-in this version will work the same when you switch to the "G" when you need pixel based graphics by 
-just changing the #include to #include <libsk_g_oled.h> with no change in the other codes.
+The "C" version have smaller memory footprint as it does not need to use a video buffer of 1024 bytes
+to handle pixel based rendering. 
+
+You cannot use both"C" and "G" version at the same time because both versions are using the same function
+names. Having same function names, allows us to swap between the two versions by just changing the include 
+header. 
+
+My suggestion, is to use the "C" version first, by using #include <libsk_c_oled.h> and when you need to use
+functions from the "G" Version, simply change to #include <libsk_g_oled.h> and there is no need to change
+anything else.
