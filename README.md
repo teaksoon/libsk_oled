@@ -101,13 +101,8 @@ There are two Arduino example program for this library,
 NOTE: 
 ---
 
-The "C" version have smaller memory footprint as it does not need to use a video buffer of 1024 bytes
-to handle pixel based rendering. 
+The "C" version have smaller memory footprint as it does not need to use a video buffer of 1024 bytes to handle pixel based rendering. 
 
-You cannot use both"C" and "G" version at the same time because both versions are using the same function
-names. Having same function names, allows us to swap between the two versions by just changing the include 
-header. 
+You cannot use both"C" and "G" version at the same time because both versions are using the same function names. Having same function names, allows us to swap between the two versions by just changing the include header. 
 
-My suggestion, is to use the "C" version first, by using #include <libsk_c_oled.h> and when you need to use
-functions from the "G" Version, simply change to #include <libsk_g_oled.h> and there is no need to change
-anything else.
+My suggestion, is to use the "C" version first, by using #include <libsk_c_oled.h> and when you need to use functions from the "G" Version, simply change to #include <libsk_g_oled.h> and there is no need to change anything else.
