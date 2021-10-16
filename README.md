@@ -43,7 +43,7 @@ The following are functions for the "G" Version Only ( with pixel level graphics
 ------
 
 
-How to install this library into Arduino IDE Software ?
+How to install this library into the Arduino IDE Software ?
 ---
 1. Find [Arduino User Program Folder] from the Arduino IDE Software, 
 - "File | Preferences | Sketchbook Location: [Arduino User Program Folder]"
