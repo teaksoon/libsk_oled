@@ -4,7 +4,7 @@ The LIBSK OLED Library is targetted specially for the the SSD1306 OLED i2c 64x12
 
 ------
 
-There are 2 version of this library, "C" Version and "G" Version. Following are the functions available for both Versions.
+There are 2 version of this library, "C" Version and "G" Version. Following are the functions available for both Versions ( Text Based )
 ---
 1. sk_oled_begin() - Run this just once, before other library display functions
 2. sk_oled_clearScreen() - Clears the entire OLED screen
@@ -22,7 +22,7 @@ There are 2 version of this library, "C" Version and "G" Version. Following are 
 - _cha     - ASCII Char ( 32 to 126 )
 
 
-The following are functions for the "G" Version Only ( with pixel level graphics )
+The following are functions for the "G" Version Only ( Pixel Based graphics )
 ---
 1. sk_oled_showDot(_row,_col,_state ) - display a single dot on the screen
 2. sk_oled_showHLine(_row,_col,_len,_state) - Draw Horizontal Line
