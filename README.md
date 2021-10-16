@@ -74,8 +74,7 @@ How to install this library into Arduino IDE Software ?
 
 3. Inside the "libraries" folder, Create a new folder named "libsk_oled"
 
-4. Copy "libsk_c_oled.h" into the newly created "libsk_oled" folder Sketch uses 990 bytes (3%) of program storage space. Maximum is 32256 bytes.
-Global variables use 26 bytes (1%) of dynamic memory, leaving 2022 bytes for local variables. Maximum is 2048 bytes.
+4. Copy "libsk_c_oled.h" into the newly created "libsk_oled" folder
 - [Arduino User Program Folder] / libraries / libsk_oled / libsk_c_oled.h
  
 5. Copy "libsk_g_oled.h" into the newly created "libsk_oled" folder 
